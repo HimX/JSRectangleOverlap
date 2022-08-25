@@ -14,7 +14,7 @@ const rectangles = [
 // Separator instance
 const separator = new Separator(rectangles);
 
-while (!Rectangle.has_overlap(rectangles)) {
+while (!Rectangle.has_overlap(separator.rectangles)) {
     // Each loop separates the rectangles until they're fully separated
     separator.step();
 }

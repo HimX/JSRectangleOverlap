@@ -42,8 +42,6 @@ export default class Separator {
                     result.y = 0;
                 }
 
-                console.log(result);
-
                 return result;
             }, { x: 0, y: 0 });
     }
